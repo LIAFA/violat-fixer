@@ -4,7 +4,7 @@
   "description": "TODO",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LIAFA/violat-fixer/issues"
   },
-  "homepage": "https://github.com/LIAFA/violat-fixer#readme"
+  "homepage": "https://github.com/LIAFA/violat-fixer#readme",
+  "devDependencies": {
+    "mocha": "^7.1.0"
+  }
 }
