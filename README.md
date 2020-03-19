@@ -10,13 +10,13 @@ Suggests fixes for atomicity violations.
 After cloning this repository, install package dependencies with npm:
 
 ```console
-npm i
+$ npm i
 ```
 
 Ensure existing tests are passing:
 
 ```console
-npm test
+$ npm test
 ```
 
 Then write new tests with each feature or fix, and ensure those tests also pass prior to pushing commits. Pushing failing tests will break [the Travis CI builds](https://travis-ci.org/github/LIAFA/violat-fixer), and yield a red build badge on this package.
